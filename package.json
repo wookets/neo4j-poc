@@ -1,0 +1,28 @@
+{
+  "name": "@wookets/neo4j-poc",
+  "version": "1.0.0",
+  "description": "A simple neo-4j poc.",
+  "main": "example.js",
+  "scripts": {
+    "example": "node example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wookets/neo4j-poc.git"
+  },
+  "author": "wookets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wookets/neo4j-poc/issues"
+  },
+  "homepage": "https://github.com/wookets/neo4j-poc#readme",
+  "dependencies": {
+    "@neo4j/graphql": "^2.5.0",
+    "apollo-server": "^3.5.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "neo4j-driver": "^4.4.1"
+  }
+}
